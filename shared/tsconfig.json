@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "NodeNext",
+    "declaration": true,
+    "declarationDir": "dist",
+    "outDir": "dist",
+    "strict": true,
+    "rootDir": "src",
+    "moduleResolution": "nodenext", // This helps with resolving certain modules like `undici-types`, `babel`, etc.
+    "skipLibCheck": true, // Skip type checking for declaration files to reduce errors
+    "esModuleInterop": true,
+},
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
+  
