@@ -12,8 +12,7 @@
     "web": "expo start --web",
     "web:clean": "expo start --web -c",
     "test": "jest --watchAll",
-    "lint": "expo lint",
-    "reset-project": "node ./scripts/reset-project.js"
+    "lint": "expo lint"
   },
   "jest": {
     "preset": "jest-expo"
