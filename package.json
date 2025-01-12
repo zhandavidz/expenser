@@ -1,12 +1,15 @@
 {
   "name": "expenser",
   "version": "1.0.0",
+  "type": "module",
   "workspaces": [
     "expo-app",
     "backend",
     "shared"
   ],
   "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "build": "npm run build --workspace=shared && npm run build --workspace=backend",
     "build:shared": "npm run build --workspace=shared",
     "start": "npm run build && concurrently \"npm run start:app\" \"npm run start:backend\"",
@@ -20,7 +23,16 @@
     "start:web": "npm run build:shared && npm run web --workspace=expo-app"
   },
   "devDependencies": {
-    "concurrently": "^8.2.2"
+    "@typescript-eslint/eslint-plugin": "^8.19.1",
+    "@typescript-eslint/parser": "^8.19.1",
+    "concurrently": "^8.2.2",
+    "eslint": "^9.18.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.3",
+    "eslint-plugin-react-hooks": "^5.1.0"
   },
   "private": true
 }
