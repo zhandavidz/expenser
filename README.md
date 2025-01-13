@@ -6,7 +6,7 @@ Built with [Expo](https://expo.dev/), [React Native](https://reactnative.dev/), 
 
 ## Why Expenser?
 
-Say a group of roommates goes on a grocery run. One person buys the groceries, say milk, eggs, and bread. One of the roommates is allergic to milk, and one of the roommates is gluten-free.
+Say a group of roommates goes on a grocery run. One person buys the groceries, say milk, eggs, and bread. One of the roommates is allergic to milk, and one of the roommates is gluten-free, but the rest will be split equally among the roommates.
 
 Usually, the person who bought the groceries would have to manually calculate how much each person owes for each item, add that up separately, and possibly even account for the fact that only some items are taxed! This app automates that process.
 
