@@ -1,6 +1,18 @@
 # Expenser
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Allow a group of people to scan and split a receipt automatically when each item on the receipt will be split differently amongst the group.
+
+Built with [Expo](https://expo.dev/), [React Native](https://reactnative.dev/), and [Express](https://expressjs.com/). Styled with [NativeWind](https://www.nativewind.dev/) (which is [TailWind](https://tailwindcss.com/) for React Native). Written in [TypeScript](https://www.typescriptlang.org/).
+
+## Why Expenser?
+
+Say a group of roommates goes on a grocery run. One person buys the groceries, say milk, eggs, and bread. One of the roommates is allergic to milk, and one of the roommates is gluten-free.
+
+Usually, the person who bought the groceries would have to manually calculate how much each person owes for each item, add that up separately, and possibly even account for the fact that only some items are taxed! This app automates that process.
+
+The person who bought the groceries scans the receipt, and the app will translate the receipt full of acronyms and codes into a list of human-readable items. Then, the person can select the items that need to be split differently amongst the group. The app will then prompt the user to select the people who need to pay for each item. The app will then calculate the total amount each person needs to pay and send a notification to each person with the total amount they need to pay.
+
+As a college student currently living in an apartment with 3 of my friends, I have experienced this problem firsthand. Having to manually calculate how much each person owes for each item is a pain. This app will make it easier for people to split the cost of items that need to be split differently amongst the group. I know I most certainly will be using this app all the time!
 
 ## Get started
 
@@ -116,5 +128,7 @@ Optionally, you can run the following commands to start the app in a specific en
    ```
 
 
+## Contributing
 
+This is a passion project of mine, and I'm only planning on working on this by myself and a few friends in my free time. As just practice for myself, I'm not looking for any contributors at the moment so I can figure it all out. However, if you have any suggestions, feedback, or have found any bugs, we welcome you to open an issue or a pull request. We will review it and get back to you as soon as possible. Thanks!
 
